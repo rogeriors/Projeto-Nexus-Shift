@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+mainbody {
+    overflow-x: hidden;
+}
+
 nav {
     display: flex;
     width: 100vw;
@@ -81,17 +85,65 @@ section {
 .sec2 {
     display: flex;
     width: 100vw;
-    height: 842px;
+    height: 640px;
     background-color: white;
 
     .sec2Esquerda {
-        height: 842px;
+        height: 630px;
         width: 100vw;
     }
 
+    .sec2Esquerda {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+
+        .esquerd {
+            height: 460px;
+        }
+
+        h2 {
+            background-image: linear-gradient(to right, rgba(128, 128, 128, 0.23), transparent);
+            font-family: "sporty";
+            font-size: 3.5em;
+            text-align: center;
+            padding: 6px 6px 0px 6px;
+            width: 830px;
+            margin-bottom: 40px;
+          
+        }
+
+        .descubraPer {
+            font-family: "sporty";
+            text-align: center;
+            font-size: 2em;
+        }
+
+        .brasao {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            padding: 30px;
+
+                .img00 {
+                    display: block;
+                }
+
+                img {
+                    width: 6em;
+                }
+
+                p {
+                    margin-top: 10px;
+                }
+        }
+    }
     .sec2Direita {
-        height: 842px;
-        width: 80vw;
+        height: 630px;
+        width: 1300px;
         background-image: linear-gradient(to right, rgba(128, 128, 128, 0.108), transparent);
         display: flex;
         align-items: center;
@@ -102,14 +154,7 @@ section {
 
 .iframePersonagens {
     overflow: hidden;
-    height: 842px;
-    width: 400px;
-
-    img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    height: 630px;
 }
 
 
