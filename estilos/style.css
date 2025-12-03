@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: sporty;
+    src: url("../fonte/sporty-pro-bold.otf");
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -71,4 +76,81 @@ section {
     background-image: url("/imagens/900.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.sec2 {
+    display: flex;
+    width: 100vw;
+    height: 842px;
+    background-color: white;
+
+    .sec2Esquerda {
+        height: 842px;
+        width: 100vw;
+    }
+
+    .sec2Direita {
+        height: 842px;
+        width: 80vw;
+        background-image: linear-gradient(to right, rgba(128, 128, 128, 0.108), transparent);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+.iframePersonagens {
+    overflow: hidden;
+    height: 842px;
+    width: 400px;
+
+    img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    width: 100vw;
+    height: 70px;
+    color: white;
+    font-size: 0.8em;
+
+    div {
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a {
+        padding-top: 5px;
+        width: 100vw;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    img {
+        padding-top: 10px;
+        width: 4vw;
+    }
+
+    p {
+        text-align: center;
+    }
 }
