@@ -255,7 +255,7 @@ section {
 
 .sec3 {
     height: 80vh;
-    background-image: url("/imagens/318gvi318gvi318g.png");
+    background-image: url("../imagens/318gvi318gvi318g.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -318,7 +318,7 @@ section {
     align-items: center;
     font-family: "sporty";
     height: 100vh;
-    background-image: url("/imagens/mapa.png");
+    background-image: url("../imagens/mapa.png");
     background-repeat: no-repeat;
     background-size: cover;
 
