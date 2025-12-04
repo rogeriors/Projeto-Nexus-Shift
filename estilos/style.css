@@ -26,10 +26,6 @@ body {
     align-items: center;     /* Centraliza verticalmente */
     z-index: 100;            /* Garante que fique acima de todo o resto */
     background-color: black;
-
-    img {
-        background-color: black;
-    }
 }
 
 #splash-screen img {
@@ -105,11 +101,22 @@ nav {
         color: white;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: bold;
-        margin-right: 70px;
+        margin-right: 50px;
+        padding: 10px 20px;
     }
 
     a {
         text-decoration: none;
+    }
+
+    a p:hover {
+        padding: 10 20pxpx;
+        background-color: rgba(255, 255, 255, 0.053);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        color: rgb(0, 200, 255);
     }
 
     .search-container > input {
