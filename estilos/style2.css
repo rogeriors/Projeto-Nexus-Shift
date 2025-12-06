@@ -79,7 +79,7 @@ nav {
         text-decoration: none;
         font-weight: bold;
         margin: 0px 5px;
-        font-size: 1vw;
+        font-size: 1.2vw;
     }
 
     a:hover {
@@ -90,7 +90,7 @@ nav {
 }
 
 .menuDireita {
-    width: 30vw;
+    width: 400px;
     color: white;
     display: flex;
     align-items: center;
@@ -120,9 +120,9 @@ nav {
     .search-container > input {
         background-color: rgba(255, 255, 255, 0.059);
         margin-right: 30px;
-        width: 15vw;
+        width: 50px;
         height: 50px;
-        border-radius: 20px;
+        border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
